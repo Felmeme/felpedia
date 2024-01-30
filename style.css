@@ -5,8 +5,6 @@ body {
     background-color: blanchedalmond;
     text-align: center;
 }
-
-
 .left {
     position: fixed;
     width: 200px;
@@ -34,7 +32,4 @@ body {
 .contents {
     border: 1px solid black;
     margin: auto;
-}
-.contents, tr {
-    align-items: center;
 }
