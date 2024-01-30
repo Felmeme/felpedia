@@ -5,6 +5,18 @@ body {
     background-color: blanchedalmond;
     text-align: center;
 }
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;  
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    text-decoration: none;    
+    color:green;
+}
 .left {
     position: fixed;
     width: 200px;
