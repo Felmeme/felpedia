@@ -1,23 +1,31 @@
 body {
-    margin: 0;
+    margin-left: 250px;
     padding: 0;
     font-size: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
 }
+
+
 .left {
-    width: 20%;
-    float: left;
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background-color:deepskyblue;
+    color: black;
+    height: 100%;    
 }
-.nav {
+.navbar {
     margin: 0;
     padding: 0;
-    list-style: none;
-    height: 100%;
+    list-style: none;    
 }
-.nav li {    
+.navbar li {    
     margin: 1px 0;
     border: 1px solid #999;
 }
-.nav li a {
+.navbar li a {
     display: block;
     line-height: 3em;
     width: 100%;
@@ -25,4 +33,8 @@ body {
 }
 .contents {
     border: 1px solid black;
+    margin: auto;
+}
+.contents, tr {
+    align-items: center;
 }
