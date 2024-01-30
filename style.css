@@ -1,6 +1,6 @@
 body {
-    margin-left: 250px;
-    padding: 0;
+    margin: 20px 250px 60px 250px;
+    padding: 25px;
     font-size: 100%;
     background-color: blanchedalmond;
     text-align: center;
@@ -29,7 +29,17 @@ body {
     width: 100%;
     text-decoration: none;
 }
-.contents {
+.contenttable {
     border: 1px solid black;
     margin: auto;
+}
+.ProgressTimeline {
+    padding: 25px;
+}
+.timeline {
+    border: 1px solid black;
+    float: right;
+    position: relative;
+}
+#diarytext {
 }
