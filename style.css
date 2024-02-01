@@ -38,6 +38,27 @@ body {
     text-align: center;
     font-family: Questrial;
 }
+.questrial {
+    font-family: Questrial;
+}
+.inter {
+    font-family: Inter;
+}
+.montserrat {
+    font-family: Montserrat;
+}
+.regular {
+    font-size: 400;
+}
+.italic {
+    font-style: italic;
+}
+.medium {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
 h1,
  h3 {
     font-family: Montserrat;
@@ -46,8 +67,6 @@ a {
     color: #286FB4;
     text-decoration: underline;
     cursor: pointer;
-    font-family: Inter;
-    font-weight: 400;
 }
 a:visited {
     color: #8a2be2;
@@ -57,7 +76,7 @@ a:hover {
     color:#df4c73;
 }
 a:active {
-    color: ;
+    color: #286FB4;
 }
 .left {
     position: fixed;
@@ -95,5 +114,11 @@ a:active {
     float: right;
     position: relative;
 }
-#diarytext {
-}
+.font-label,
+    questrial {
+        font-family: Questrial;
+    }
+.font-label,
+    inter {
+        font-family: Inter;
+    }
